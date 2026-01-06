@@ -4,12 +4,12 @@ import requests
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "8401794291:AAHVC_ey-3NBP8ldNbZJr_-E6etxNynHw8E"  # توکن بات خودت
+BOT_TOKEN = "BOT_TOKEN"  # توکن بات خودت
 
-DEEPFAKE_API_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0Z19pZCI6Njk4ODA1MDU5OCwiZGJfbm0iOiJzdWJfZGF0YTQzIn0.LqvVMBFReS3UbIBgDm6FilCc7xtmB5sFegMwO184_Go"
+DEEPFAKE_API_TOKEN = "DEEPFAKE_API_TOKEN"
 
 # URL اصلی که کار می‌کنه (تست شده روی مشابه‌ها)
-API_URL = "https://api.deepfake.ir/v1/generate"  # اگر کار نکرد، این‌ها رو امتحان کن:
+API_URL = "API_URL"  # اگر کار نکرد، این‌ها رو امتحان کن:
 # API_URL = "https://deepfake.bot.tg/api/v1/swap"
 # API_URL = "https://sub_data43.deepapi.com/process"
 
@@ -80,4 +80,5 @@ def main():
     app.run_polling()
 
 if __name__ == '__main__':
+
     main()
